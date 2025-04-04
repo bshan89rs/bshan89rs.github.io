@@ -177,7 +177,7 @@
 
 
                     var str = "<h6 style='text-align: center'>"+feature.properties.date+"</h6>"
-                    str += "<img src='/img/" + feature.properties.Img_Name+"'width='250px'>"
+                    str += "<img src='/assets/img/foodblog/" + feature.properties.Img_Name+"'width='250px'>"
                     return L.marker(latlng, {icon:resIcon}).bindPopup(str);
                   }});
                 geojsonlayer.addTo(map_leaf)
