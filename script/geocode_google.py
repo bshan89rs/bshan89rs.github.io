@@ -2,8 +2,6 @@ import geopandas as gpd
 import os, time
 import requests
 
-api_key = r'AIzaSyBwI2pcgnIURApHk-FIdC988k_xBNG93Fw'
-
 gdf = gpd.read_file(r"S:\OneDrive - The University of Western Ontario\Personal_Bo\Portfolio\git_site\Personal\resources\test_img.geojson")
 print(gdf.head())
 
